@@ -125,7 +125,7 @@ header li a:hover:after {
 
 .hero-banner {
   background: var(--background-color);
-  background-image: url(/assets/images/27654466-7053-449D-BB47-AA6018DAA730.png);
+  background-image: url(..assets/images/27654466-7053-449D-BB47-AA6018DAA730.png);
   background-size: cover;
   background-position: center;
   height: 90vh;
