@@ -1,48 +1,80 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Axel Jamal// Web Developer</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Axel Jamal// Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  <body>
+    <!-- main logo / nav -->
+    <header>
+      <div class="profile">
+        <img src="./assets/images/IMG_0582.png" alt="Axel Jamal" />
+        <h1>Axel Jamal</h1>
+      </div>
+      <nav class="sticky">
+        <ul>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#footer-socials">Contact Me</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Axel Jamal</h1>
-    <nav>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <!-- hero banner -->
+    <section class="hero-banner">
+      <div class="headline">
+        <h2>Front-End Web Developer</h2>
+      </div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-        <div class="flex">
-          <a href="#" class="proj1 flex-item">
+    <main class="page-wrapper">
+      <!-- about me -->
+      <section class="page-section" id="about">
+        <h2>About Me</h2>
+        <article>
+          <p>My Name is Axel Trysna Anggara Jamal</p>
+
+          <br />
+
+          <p>I'm originally from Palu, Central Sulawesi, Indonesia.</p>
+        </article>
+      </section>
+
+      <!-- portfolio container -->
+      <section class="page-section" id="work">
+        <h2>Work</h2>
+        <div class="flex-container">
+          <div class="proj1 flex-item">
             <div>
-              <h3>
-                Place Holder
-                <p>category</p>
-              </h3>
+              <a
+                href="https://github.com/axeljamal/accessibility-challenge-1"
+                target="_blank"
+              >
+                <h3>GitHub</h3>
+              </a>
+              <a
+                href="https://axeljamal.github.io/accessibility-challenge-1/"
+                target="_blank"
+              >
+                <h3>Deployed Application</h3>
+              </a>
             </div>
-          </a>
-          <a href="#" class="proj2 flex-item" >
+          </div>
+
+          <a href="#" class="proj2 flex-item">
             <div>
               <h3>
                 Place Holder
@@ -75,13 +107,48 @@
             </div>
           </a>
         </div>
-    </section>
+      </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-</body>
+      <!-- contact -->
+    </main>
 
+    <footer>
+      <div id="footer-socials">
+        <div class="social-icon" id="footer-icon">
+          <a href="https://github.com/axeljamal" target="_blank">
+            <img src="./assets/images/github.png" alt="github" />
+          </a>
+        </div>
+        <div class="social-icon" id="footer-icon">
+          <a
+            href="https://www.linkedin.com/in/axel-trysna-anggara-jamal-3b74a464"
+            target="_blank"
+          >
+            <img src="./assets/images/linkedin.png" alt="linkedin" />
+          </a>
+        </div>
+        <div class="social-icon" id="footer-icon">
+          <a href="https://www.instagram.com/axelanggara/" target="_blank">
+            <img src="./assets/images/instagram.png" alt="instagram" />
+          </a>
+        </div>
+        <div class="social-icon" id="footer-icon">
+          <a href="/" target="_blank">
+            <img src="./assets/images/home.png" alt="home" />
+          </a>
+        </div>
+        <div class="social-icon" id="footer-icon">
+          <a href="mailto:axeltaj@gmail.com" target="_blank">
+            <img src="./assets/images/email.png" alt="email" />
+          </a>
+        </div>
+        <div class="social-icon" id="footer-icon">
+          <a href="tel:+447985447179">
+            <img src="./assets/images/phone.png" alt="call" />
+          </a>
+        </div>
+      </div>
+      <div class="copyright">&#169; 2022 - Created by Axel Jamal</div>
+    </footer>
+  </body>
 </html>
