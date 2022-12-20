@@ -2,6 +2,8 @@
 
 This is a portfolio of some of my works during the bootcamp course. This will showcase the skills that I have acquired as well as well as the knowledge that I have shared with my colleagues on team work.
 
+## Link to deployed site: https://axeljamal.github.io/portfolio-aj/
+
 ## View on desktop:
 
 <img width="1308" alt="Screenshot 2022-12-19 at 18 06 57" src="https://user-images.githubusercontent.com/119621308/208550592-547b58b2-ab19-4ccc-8612-e65a6352cf36.png">
